@@ -1,4 +1,3 @@
-# HTML5 Game Development Gulp Workflow
 A gulp workflow that is optimised for HTML5 Game Developement. 
 
 ##Requirements
@@ -30,11 +29,17 @@ You can install the list of gulp tasks above by using the following command belo
 You will now be able to run the following commands in order to achieve different tasks:
 
 `gulp zip` - Adds your minified JS file and index.html to a zip file, great for quick distribution of your game
+
 `gulp publish` - The command you run when you are ready to release your game. It will run the build commands for your JS and HTML, one last time before zipping them up. 
+
 `gulp images` - Compresses images for a lower file size
+
 `gulp build-html` - minifies your HTML file(s)
+
 `gulp build-js` - Checks your JS for errors, concatenates all your JS files down to one file before minifying the JavaScript code.
+
 `gulp build-dev` - Checks your JS for errors and concatenates all your JavaScript files down to one file but *doesn't* minify (Easier for debugging!!)
+
 `gulp watch` - Keeps a close eye on your specific JS files / folders and will run uglify whenever a change has been made, just like the `gulp build` command.
 
 ##License
