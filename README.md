@@ -1,7 +1,7 @@
-A gulp workflow that is optimised for HTML5 Game Developement. 
+A gulp workflow that is optimised for HTML5 Game Development. 
 
 ##Requirements
-* OSX or Linux
+* OSX or Linux (Project needs a Windows tester!)
 * Nodejs + NPM
 
 ## Installing NodeJS + NPM
@@ -12,18 +12,14 @@ A gulp workflow that is optimised for HTML5 Game Developement.
 ### Within Red Hat, Fedora, CentOS, etc
 `sudo yum install nodejs npm` 
 
-##Installing Gulp
+## Installing Gulp
 Please refer to Gulp’s getting started guide [here](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
 
-##Gulp Tasks
-
-* gulp-zip: Compresses files into a zip folder.
-* gulp-concat: Combines (JS) files together, smaller footprint size and fewer HTTP requests = quicker loading of the game.
-* gulp-uglify: Minifies JavaScript code to be as small as possible in file size.
-* gulp-watch: Keeps a check for file changes
-
+## Gulp Tasks
 You can install the list of gulp tasks above by using the following command below: 
-`npm install gulp gulp-zip gulp-watch gulp-jshint gulp-concat gulp-uglify gulp-image-optimization gulp-minify-html gulp-rename run-sequence`
+```
+npm install gulp gulp-zip gulp-watch gulp-jshint gulp-concat gulp-uglify gulp-image-optimization gulp-minify-html gulp-rename run-sequence
+```
 
 ##Commands
 You will now be able to run the following commands in order to achieve different tasks:
@@ -42,5 +38,8 @@ You will now be able to run the following commands in order to achieve different
 
 `gulp watch` - Keeps a close eye on your specific JS files / folders and will run uglify whenever a change has been made, just like the `gulp build` command.
 
-##License
+## Task Requests
+Want a task automating for your game development workflow? Accepting requests via raising [a new issue](https://github.com/ojdon/html5-game-development-gulp-workflow/issues). 
+
+## License
 This gulpfile uses the same license as Gulp itself, MIT.
