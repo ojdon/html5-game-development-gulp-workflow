@@ -1,0 +1,26 @@
+{
+  "name": "html5-game-development-gulp-workflow",
+  "version": "1.0.0",
+  "description": "A gulp workflow for HTML5 Game Developers!",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojdon/html5-game-development-gulp-workflow.git"
+  },
+  "keywords": [
+    "html5",
+    "gamedev",
+    "gulp"
+  ],
+  "author": "Ollie Reardon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ojdon/html5-game-development-gulp-workflow/issues"
+  },
+  "homepage": "https://github.com/ojdon/html5-game-development-gulp-workflow#readme"
+}

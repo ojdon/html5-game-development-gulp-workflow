@@ -1,27 +1,15 @@
 A gulp workflow that is optimised for HTML5 Game Development. 
 
-##Requirements
-* OSX or Linux (Project needs a Windows tester!)
-* Nodejs + NPM
+## Getting Started
 
-## Installing NodeJS + NPM
-### Within OSX
-`brew install nodejs npm`
-### Within Ubuntu, Debian, Elementary OS, etc
-`sudo apt-get install nodejs npm`
-### Within Red Hat, Fedora, CentOS, etc
-`sudo yum install nodejs npm` 
+### Installing Gulp
+ [Gulp](http://gulpjs.com/) can automate recurring tasks that are performed throughout the game development process, such as minifying and error checking source code, optimising images and much more. Before you begin installing gulp, please ensure that you have [NodeJS, NPM](https://docs.npmjs.com/getting-started/installing-node) & [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) installed globally on your system. Then run the following command from your game's source directory:
 
-## Installing Gulp
-Please refer to Gulp’s getting started guide [here](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
+`npm install` 
 
-## Gulp Tasks
-You can install the list of gulp tasks above by using the following command below: 
-```
-npm install gulp gulp-zip gulp-watch gulp-jshint gulp-concat gulp-uglify gulp-image-optimization gulp-minify-html gulp-rename run-sequence
-```
+This will pull in the relevant Node packages, required by gulp. 
 
-##Commands
+## Commands
 You will now be able to run the following commands in order to achieve different tasks:
 
 `gulp zip` - Adds your minified JS file and index.html to a zip file, great for quick distribution of your game
@@ -38,8 +26,8 @@ You will now be able to run the following commands in order to achieve different
 
 `gulp watch` - Keeps a close eye on your specific JS files / folders and will run uglify whenever a change has been made, just like the `gulp build` command.
 
-## Task Requests
+## Any Requests?
 Want a task automating for your game development workflow? Accepting requests via raising [a new issue](https://github.com/ojdon/html5-game-development-gulp-workflow/issues). 
 
 ## License
-This gulpfile uses the same license as Gulp itself, MIT.
+This gulpfile uses the same license as Gulp itself, [MIT](https://raw.githubusercontent.com/ojdon/html5-game-development-gulp-workflow/master/LICENSE).
