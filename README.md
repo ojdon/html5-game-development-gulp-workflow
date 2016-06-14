@@ -1,4 +1,5 @@
-A gulp workflow that is optimised for HTML5 Game Development. 
+# HTML5 Game Development Gulp Workflow
+A collection of gulp tasks that are optimised for HTML5 Game Development. 
 
 ## Getting Started
 
